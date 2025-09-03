@@ -15,3 +15,12 @@ jobs:
       run: pwd
     - name: list all files
       run: ls -lrt
+    - name: multi commands
+      run: |
+      uname -a
+      pwd
+      whoami
+      date
+      free -m
+      df -h
+      
