@@ -5,7 +5,7 @@ on:
 
 jobs:
   job-name:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: get instance metadata
       run: uname -a
