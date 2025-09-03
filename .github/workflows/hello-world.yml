@@ -17,10 +17,9 @@ jobs:
       run: ls -lrt
     - name: multi commands
       run: |
-      uname -a
-      pwd
-      whoami
-      date
-      free -m
-      df -h
-      
+        uname -a
+        pwd
+        whoami
+        date
+        free -m
+        df -h
